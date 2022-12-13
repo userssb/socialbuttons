@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,92 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* Write your code here. */
+.bg-cont {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Bree Serif";
+  font-size: 100px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.btn {
+  border-radius: 5px;
+  color: white;
+}
+.btn-like {
+  background-color: #eab308;
+  height: 35px;
+  width: 60px;
+}
+.btn-comment {
+  background-color: #ffffff;
+  height: 35px;
+  width: 90px;
+  margin-left: 5px;
+  color: black;
+}
+.btn-share {
+  background-color: #1d4ed8;
+  height: 35px;
+  width: 80px;
+  margin-left: 5px;
 }
